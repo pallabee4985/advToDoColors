@@ -1,0 +1,26 @@
+.Navbar{
+    display:flex;
+    width: 100%;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-color: rgb(11, 11, 11);
+    column-gap: 10px;
+    padding: 10px;
+    border:2px solid rgb(2, 31, 44) ;
+    align-items: center;
+}
+.NavItem,span{
+    padding: 2px;
+    margin: 5px;
+    color: aliceblue;
+}
+.NavLogo{
+    height: 50px;
+    margin-right: auto;
+    border:2px dotted  whitesmoke;
+    padding: 1px;
+    border-radius: 5px;
+}
+.five{
+    margin-left: 5%;
+}

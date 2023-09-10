@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.HeroText{
+    height:40vh;
+    width: 100%;
+    font-family: 'Borel', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9em;
+    background-image: url("https://www.singulart.com/images/artworks/v2/cropped/24497/main/zoom/1335063_63e34623de63cd8e49b93e01ceaf4bfb.jpeg");
+    background-size: cover;
+   
+}
+
+@media(max-width:900px){
+    .HeroText {
+        font-size: 6rem;
+    }
+}
+@media(max-width:580px){
+    .HeroText {
+        font-size: 3rem;
+        height:35vh;
+    }
+}
+@media(max-width:340px){
+    .HeroText {
+        font-size: 2rem;
+        height:30vh;
+    }
+}
